@@ -1,0 +1,16 @@
+Para o programa:
+	Para printar a mensagem no terminal, foi necessária a linha de comando 'echo "Bem
+vindo &USER ao terminal do &(hostname)"'. Em seguida, adicionei a linha 'curl wttr.in/?0'
+para informar as condiçoes climáticas. Após isso, na home, usei o comando 'touch .welcome.data'
+e no welcome.sh inseri a linha 'echo "&(date)" >> ~/welcome.data' para enviar as informações de
+horário para o outro arquivo sempre que for executado.
+
+Para o softlink:
+	Para fazer o softlink, primeiramente executei o comando echo $PATH. Assim, pude
+selecionar algum diretorio da PATH para realizar o link. Em seguida, utilizei o comando
+sudo ln -s <caminho_do_welcome.sh> <caminho_da_"Path">.
+
+Para executar o programa sempre que abrir o terminal:
+	Foi necessário editar o texto do arquivo ~/.bashrc. Para isso, utilizei o "cd ~ &&
+vim ~/.bashrc", e depois inseri a palavra "welcome" no arquivo, uma vez que "welcome" já era
+um comando reconhecido pelo terminal.
