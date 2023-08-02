@@ -1,4 +1,4 @@
 Primeiramente, criei o repositório no github. Em seguida, no git bash adicionei a pasta Linux com o mkdir
 e o README.md com o touch. Então, usei os comandos 'git init' e 'git remote add origin https://github.com/jerre231/nautilus'.
 Após adicionar todos os arquivos, usei o comando 'git add .' e 'git commit' e inseri uma mensagem de commit. Logo depois, enviei
-os arquivos para o github com 'git push -u origin master'.
+os arquivos para o github com 'git push origin master'.
