@@ -1,0 +1,8 @@
+<launch>
+    <node name="paramserver" pkg="sistema_solar" type="paramserver.py" output="screen" />
+
+    <node name="broadcaster" pkg="sistema_solar" type="broadcaster.py" output="screen" />
+
+    <node name="listener" pkg="sistema_solar" type="listener.py" output="screen" />
+</launch>
+

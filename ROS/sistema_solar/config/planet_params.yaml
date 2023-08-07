@@ -1,0 +1,7 @@
+planets:
+  - name: mercury
+    orbit_radius: 1.0  # Raio da órbita do planeta em unidades arbitrarias (metros, por exemplo)
+  - name: venus
+    orbit_radius: 1.5
+  - name: earth
+    orbit_radius: 2.0
